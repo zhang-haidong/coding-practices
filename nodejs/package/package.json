@@ -1,0 +1,14 @@
+{
+  "name": "local-pkg",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "yarn install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
