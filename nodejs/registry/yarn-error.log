@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\i520231\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gulp -D
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\i520231\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python37\Scripts;C:\Python37;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\i520231\AppData\Local\Microsoft\WindowsApps;C:\Users\i520231\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\i520231\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2019.2.1\bin;C:\Program Files (x86)\Google\Chrome\Application
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://nexus.wdf.sap.corp:8443/nexus/content/groups/build.releases.npm/grunt: SSL Error: SELF_SIGNED_CERT_IN_CHAIN
+      at Request.module.exports.Request.onRequestResponse (C:\Users\i520231\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141227:24)
+      at ClientRequest.emit (events.js:203:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+      at TLSSocket.socketOnData (_http_client.js:442:20)
+      at TLSSocket.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+      at readableAddChunk (_stream_readable.js:269:11)
+      at TLSSocket.Readable.push (_stream_readable.js:224:10)
+      at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+
+npm manifest: 
+  {
+    "name": "registry",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "bootstrap": "yarn install",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "grunt": "*"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
